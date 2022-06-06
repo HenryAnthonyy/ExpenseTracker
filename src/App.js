@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       <NewExpense onAddExpenseData = {addExpenseData}/>
-      {/* <ExpenseFilter /> */}
+      
       <Expenses items = {expenses}/>
     </div>
   );
